@@ -1,0 +1,91 @@
+
+.container{
+  width: 500px;
+  margin: auto;
+  height: 100vh;
+  align-content: center;
+}
+
+.form-container{
+  background: #AAEEB8;
+  height: max-content;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img{
+  width: 100px;
+  height: auto;
+}
+.logo .title{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.option{
+  display: flex;
+  justify-content: center;
+  margin-top:15px ;
+}
+
+.option .selected{
+  background: #2FDD49;
+}
+.option button{
+  border: none;
+  padding: 8px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: 0.2s;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.option button:hover{
+  transform: scale(1.1);
+}
+
+.form{
+  display: grid;
+  place-items: center;
+}
+.form p{
+  margin: 30px;
+  font-size: 1.8rem;
+}
+
+.input-box{
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+}
+.input-box label{
+  font-size: 1.1rem;
+}
+.input-box input{
+  border: none;
+  margin-top: 5px;
+  font-size: 1.3rem;
+  padding: 5px 3px 5px 20px;
+  border-radius: 9999999px;
+}
+
+.form button{
+  background: #3DE80A;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  color: black;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.form button:hover{
+  transform: scale(1.1);
+}

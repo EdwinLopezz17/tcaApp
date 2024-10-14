@@ -1,0 +1,51 @@
+
+<div class="container">
+
+  <div class="form-container">
+
+    <div class="logo">
+      <img src="https://www.btime.pe/wp-content/uploads/2022/12/300-1.png" alt="">
+      <p class="title">TCEAManager</p>
+    </div>
+
+    <div class="option">
+      <button [ngClass]="{ 'selected': isSignedIn }" (click)="selectedSignIn()">Sign-In</button>
+      <button [ngClass]="{ 'selected': isSignedUp }" (click)="selectedSignUp()">Sign-Up</button>
+    </div>
+
+    <div class="form" >
+
+      <p>Welcome</p>
+
+      @if (isSignedUp){
+        <div class="input-box">
+          <label for="">First Name</label>
+          <input type="text">
+        </div>
+
+        <div class="input-box">
+          <label for="">Last Name</label>
+          <input type="text">
+        </div>
+      }
+
+      <div class="input-box">
+        <label for="">Email Name</label>
+        <input type="text">
+      </div>
+
+      <div class="input-box">
+        <label for="">New Password</label>
+        <input type="password">
+      </div>
+
+      <button routerLink="/home">{{textButton}}</button>
+
+    </div>
+  </div>
+
+</div>
+
+
+
+

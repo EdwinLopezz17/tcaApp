@@ -1,0 +1,42 @@
+
+header{
+  background: white;
+}
+
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img{
+  width: 100px;
+  height: auto;
+}
+.logo .title{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.options{
+  height: 50px;
+  background: #AAEEB899;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.options a{
+  margin: 0 30px;
+  text-decoration: none;
+  background: #B5CAB1;
+  padding: 5px 30px;
+  border-radius: 999px;
+  font-weight: bold;
+  cursor: pointer ;
+  transition: 0.2s;
+}
+.options a:hover{
+  transform: scale(1.1);
+  background:#2FDD49;
+}
