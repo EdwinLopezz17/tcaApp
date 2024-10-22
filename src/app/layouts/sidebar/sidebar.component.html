@@ -1,0 +1,27 @@
+
+<div class="container">
+
+  <div class="options">
+
+    @for (option of options; track option.path){
+      <div class="option"
+           [routerLink]="option.path"
+           routerLinkActive = "active"
+           [routerLinkActiveOptions]="{exact: true}"
+      >
+        <mat-icon>{{option.icon}}</mat-icon>
+        <p>{{option.label}}</p>
+      </div>
+    }
+
+    <div class="option logout">
+      <mat-icon>logout</mat-icon>
+      <p>Log Out</p>
+    </div>
+
+  </div>
+
+
+
+</div>
+

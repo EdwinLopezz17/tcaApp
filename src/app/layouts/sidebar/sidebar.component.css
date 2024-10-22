@@ -1,0 +1,44 @@
+
+.container{
+  width: 260px;
+  background: #AAEEB8;
+  min-height: 80vh;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.option{
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 15px;
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 5px;
+
+  p{
+    margin:0;
+    margin-left: 10px;
+  }
+
+  mat-icon{
+    width: max-content;
+    height: auto;
+    font-size: 2rem;
+  }
+}
+.logout{
+  margin-top: 70px;
+  background: #22A61B;
+}
+.option:hover{
+  background: #5BB06D;
+}
+
+.active{
+  background-color: #5BB06D;
+}

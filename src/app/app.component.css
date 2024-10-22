@@ -1,0 +1,12 @@
+.app-route{
+  background: #9BCFB1;
+}
+
+.sidebar-container{
+  display: flex;
+  width: 100%;
+}
+
+.body{
+  width: 100%;
+}
