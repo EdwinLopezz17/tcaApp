@@ -1,0 +1,102 @@
+<div class="document-container">
+  <form>
+    <h3>Registrar Nuevo Documento</h3>
+    <div class="form-grid">
+      <div class="form-group">
+        <label for="name">Nombre</label>
+        <input type="text" id="name" placeholder="Ramiro">
+      </div>
+
+      <div class="form-group inline-group">
+        <label for="rate">Tasa (%)</label>
+        <div style="display: flex">
+          <input type="number" id="rate" placeholder="5.25">
+          <select id="rate-type">
+            <option>Nominal</option>
+            <option>Efectiva</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="desgravamen">Desgravamen</label>
+        <input type="number" id="desgravamen" placeholder="4.25">
+      </div>
+
+      <div class="form-group">
+        <label for="initial">Inicial (%)</label>
+        <input type="number" id="initial" placeholder="30">
+      </div>
+
+      <div class="form-group">
+        <label for="amount">Monto</label>
+        <input type="number" id="amount" placeholder="40000">
+      </div>
+
+      <div class="form-group inline-group">
+        <label for="time">Tiempo</label>
+        <div style="display: flex">
+          <input type="number" id="time" placeholder="4">
+          <select>
+            <option>Años</option>
+            <option>Meses</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group inline-group">
+        <label for="property-insurance">Seguro Inmueble</label>
+        <div style="display: flex">
+          <input type="number" id="property-insurance" placeholder="300">
+          <select>
+            <option>Años</option>
+            <option>Meses</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="amortization">Sistema de Amortización</label>
+        <select id="amortization">
+          <option>Cuotas fijas anuales</option>
+          <option>Cuotas fijas mensuales</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="bank">Banco</label>
+        <select id="bank">
+          <option>BCP</option>
+          <option>Interbank</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="wallet">Cartera</label>
+        <select id="wallet">
+          <option>Wallet 1</option>
+          <option>Wallet 2</option>
+          <option>Wallet 3</option>
+        </select>
+      </div>
+
+    </div>
+
+    <button type="submit">Registrar Documento</button>
+  </form>
+
+    @if(true){
+      <section class="after-edit">
+        <div class="before-edit-data">
+          <h5>Costo efectivo anterior</h5>
+          <p>15.78 %</p>
+        </div>
+
+        <div class="after-edit-data">
+          <h5>Costo efectivo con los datos editados</h5>
+          <p>10.78 %</p>
+        </div>
+
+      </section>
+    }
+</div>

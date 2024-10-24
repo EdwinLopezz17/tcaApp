@@ -6,6 +6,7 @@ import {EffectiveCostComponent} from "./core/effective-cost/effective-cost.compo
 import {ProcessComponent} from "./core/process/process.component";
 import {ProfileComponent} from "./core/profile/profile.component";
 import {NotificationsComponent} from "./core/notifications/notifications.component";
+import {DocumentComponent} from "./core/document/document.component";
 
 export const routes: Routes = [
 
@@ -17,6 +18,6 @@ export const routes: Routes = [
   {path: 'process', component: ProcessComponent},
   {path: 'profile', component: ProfileComponent},
   {path: 'notifications', component: NotificationsComponent},
-
+  {path: 'documents', component: DocumentComponent},
 
 ];
